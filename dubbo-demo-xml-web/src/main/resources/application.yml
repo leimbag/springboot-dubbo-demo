@@ -1,0 +1,12 @@
+dubbo:
+  application:            #应用配置，用于配置当前应用信息
+    name: dubbo_consumer
+  registry:                 #注册中心配置
+    address: zookeeper://127.0.0.1:2181
+    protocol: zookeeper
+  metadata-report:
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  version: 1.0.0
