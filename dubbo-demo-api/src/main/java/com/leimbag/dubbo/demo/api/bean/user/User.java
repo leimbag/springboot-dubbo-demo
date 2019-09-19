@@ -3,7 +3,7 @@ package com.leimbag.dubbo.demo.api.bean.user;
 import java.io.Serializable;
 
 /**
- * @author leiming
+ * @author leimbag
  */
 public class User implements Serializable {
 

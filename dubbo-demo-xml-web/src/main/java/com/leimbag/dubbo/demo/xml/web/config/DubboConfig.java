@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
 
 /**
- * @author leiming
+ * @author leimbag
  */
 @Configuration
 @EnableDubbo(scanBasePackages="com.leimbag.dubbo.demo.api")
