@@ -9,6 +9,4 @@ dubbo:
     name: dubbo
     port: 20888
   version: 1.0.0
-  scan:
-    base-packages: com.leimbag.dubbo.demo.api.service  #服务暴露与发现消费所在的package
 
